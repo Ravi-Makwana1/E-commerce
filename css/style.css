@@ -1,0 +1,160 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ :root {
+    --main-bg-color: #0a80a3;
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+ header {
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+
+ }
+
+ nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+ }
+
+ .logo {
+    display: flex;
+    align-items: center;
+
+ }
+
+ .logo img {
+    border-radius: 50%;
+    width: 50px;
+    padding: 025px;
+ }
+
+ nav {
+    display: flex;
+    align-items: center;
+ }
+
+ nav ul li {
+    list-style: none;
+    padding: 0 23px;
+
+ }
+
+ .search {
+    display: flex;
+    align-items: center;
+
+ }
+
+ .search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+ }
+
+ .search input {
+    width: 30vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+ }
+ .whishlist {
+   background-color: #04AA6D;
+   border: 2px solid white;
+   color: white;
+   padding: 6px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 13px;
+   margin: 4px 24px;
+   border-radius: 50%;
+   cursor: pointer;
+   
+
+ }
+ .Orders{
+
+   background-color: #001e32;
+   border: 2px solid white;
+   color: white;
+   padding: 6px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 13px;
+   margin: 4px 980px;
+   border-radius: 12px;
+   cursor: pointer;
+ }
+
+ .container {
+    min-height: calc(100vh - 58px - 12vh);
+ }
+
+ .slider {
+    margin: 12px auto;
+    width: 65vw;
+ }
+
+ .card {
+  
+    max-width: 90vw;
+    margin: auto;
+    animation: Flow 3s timing-function delay infinite reverse fill-mode;
+
+ }
+ @keyframes Flow {
+   from{position: fixed;
+   }
+   to{
+      position: relative;
+   }
+ }
+ .cards{
+   display: flex;
+   /* justify-content: center; */
+ }
+ .card-item{
+   display:inline-flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 15px;
+ }
+ .card h2{
+   font-family: "Ubuntu", sans-serif;
+
+ }
+
+.slider{
+   margin: 12px auto;
+   overflow: hidden;
+}
+
+
+
+ nav ul li a {
+   font-size: 23px;
+    color: black;
+    text-decoration: none;
+
+ }
+
+ nav ul li a:hover {
+    color: rgb(238, 19, 19);
+    font-weight: bold
+ }
+
+ footer {
+    height: 90px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+ }
